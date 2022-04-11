@@ -581,6 +581,13 @@ select{
   .navbarList li{
     border-bottom: 1px solid #ccc;
   }
+  .createListing{
+    font-size: 13px;
+  }
+  .createListing span{
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
   .footer{ 
     text-align: center;
   }
@@ -591,9 +598,6 @@ select{
   }
   .formButtons{
     flex-wrap: wrap;
-  }
-  .createListing{
-    font-size: 16px;
   }
   .profile-item-2{
     text-align: center;
@@ -608,7 +612,7 @@ select{
     width: 270px;
   }
   .shopItemThree{
-    top: -3rem;
+    top: -1rem;
     text-align: center;
   }
   .button{
@@ -616,7 +620,16 @@ select{
     padding-top: 10px;
   }
   .sign-form-two input{
-    padding: 8px 7rem;
+    padding: 8px 5rem;
+  }
+  .deleteShopIcon{
+    top: -106px;
+    right: 39px;
+  }
+  .shopInput{
+    padding-top: 13px;
+    font-size: 19px;
+    width: 96px;
   }
   .payment-item{
     height: 343px;
@@ -635,6 +648,27 @@ select{
   }
   .links{
     width: unset;
+  }
+  .home-item img{
+    padding: 0 1rem;
+  }
+  #content{
+    padding: 2rem;
+  }
+  .buttons{
+    flex-direction: column;
+    margin-right: 2rem;
+    gap: 0.5rem;
+  }
+  .buttons button{
+    margin-bottom: 0rem;
+    text-align: center !important;
+  }
+  .buttons a{
+    text-align: center;
+  }
+  select{
+    padding: 11px 2rem;
   }
 }
 /* Spinner */
