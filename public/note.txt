@@ -1,0 +1,38 @@
+ <div className="container">
+            <div className="row mt-4">
+                <div className="col-md-3">
+                    <h1 className="logo">T-Shirt <span className="red">Shop</span></h1>
+                </div>
+                <div className="col-md-9 navbar-item-2">
+                    <ul className="navbarList"> 
+                    <li style={{
+                 color : pathMatchRoute('/') ? 'red' : '#000'
+               }
+               } onClick={() => navigate('/')}>Home</li>
+                    <li style={{
+                 color : pathMatchRoute('/create-listing') ? 'red' : '#000'
+               }
+               } onClick={() => navigate('/create-listing')}>Sell Your Art !</li>
+                        <li style={{
+                 color : pathMatchRoute('/about') ? 'red' : '#000'
+               }
+               } onClick={() => navigate('/about')}>About</li>
+               <li style={{
+                 color : pathMatchRoute('/profile') ? 'red' : '#000'
+               }
+               } onClick={() => navigate('/profile')}><i className="fa-solid fa-user"></i></li>
+               <li style={{
+                 color : pathMatchRoute(`/shop`) ? 'red' : '#000'
+               }
+               } onClick={() => navigate(`/shop`)}><i className="fa-solid fa-tag"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+Prilagoditi aplikaciju mobilnoj verziji
+Kada se nesto doda u korpu treba da se pojavi toast message
+Iznad korpe dodati broj koji pokazuje koliko imamo itema u korpi        
+Zamjeniti majice koje postoje sa drugim bez natpisa
+Kreirati par listinga, testirati aplikaciju, obrisati nepotrebne stvari i uploudovati na free host
