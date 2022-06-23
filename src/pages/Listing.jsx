@@ -112,7 +112,7 @@ function Listing() {
                       Add to Cart
                     </button>
                     <Link className="contactButton buttonHover" to={`/contact/${listing.userRef}?listingBrand=${listing.brand}`}> 
-                      Contact Landlord
+                      Contact Owner
                     </Link>
                    </div>
                     
